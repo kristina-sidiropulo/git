@@ -1,0 +1,17 @@
+Создать свой репозиторий в таким же именем, как и имя пользователя
+mkdir kristina-sidiropulo
+
+Склонировать его на свой компьютер в отдельную папку
+git clone https://github.com/kristina-sidiropulo/kristina-sidiropulo.git
+
+Склонировать себе следующий репозиторий в отдельную папку https://github.com/testrusau/testrusau
+git clone https://github.com/testrusau/testrusau
+
+Выберите один из любых вариантов и выполните его.
+Вариант 1: Скопировать данные из склонированного репозитория и вставить их в ваш репозиторий из шага 2
+Выбрала вариант 1
+
+Открыть файл README.md и поочередно заменить каждый блок на вашу информацию . Каждое изменений блока делайте через отдельный коммит.
+git add README.md
+git commit -m "readme file fix"
+git push
